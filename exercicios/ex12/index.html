@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Vídeos</title>
+</head>
+<body>
+    <h1>Carregando vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu computador</p>
+
+    <video width="400" poster="image/paisagem.png" controls autoplay loop>
+        <source src="midia/video-01.mp4" type="video/mp4">
+        <source src="midia/video-02.m4v" type="video/mp4">
+        <source src="midia/video-03.webm" type="video/webm">
+        <source src="midia/video-04.ogv" type="video/ogg">
+        <p>Seu navegador não possui compatibilidade para reproduzir o vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="400" height="225" src="https://www.youtube.com/embed/jCeT_plID5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

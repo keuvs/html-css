@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(69, 248, 78);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: hotpink;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgb(255, 135, 23);
+        }
+        .especial {
+            background-color: rgb(207, 203, 235);
+        }
+        .especial::before {
+            content: '[click] ';
+            font-weight: normal;
+            color: rgb(8, 8, 8);
+        }
+        .especial::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(6, 7, 6);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/keuvs" target="_blank" class="especial">Repositório GitHub</a></li>
+        <li><a href="https://www.instagram.com/keuvs_s/?hl=pt-br" class="especial">Perfil do Instagram</a></li>
+        <li><a href="https://www.cursoemvideo.com/minha-conta/" class="especial">Plataforma CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
